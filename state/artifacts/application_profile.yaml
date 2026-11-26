@@ -1,0 +1,12 @@
+contact: {full_name: "Edwin Evans", email: "lldevans@gmail.com", phone: "240-517-5500", city_state: "Baltimore, MD"}
+links:
+  linkedin: "https://www.linkedin.com/in/edwin-evans-9609a6169/"
+  github: "https://github.com/ghfix"
+  portfolio: ""
+work_authorization: {authorized_us: true, sponsorship_now: false, sponsorship_future: false}
+availability: {earliest_start: "Two weeks after an offer", notice_period: "Two weeks"}
+willingness: {relocate: true, travel_percent_max: null}
+answer_policies:
+  desired_compensation: ASK_EACH_TIME
+  eeo: USER_SPECIFIED
+never_store: [ssn, government_id, bank_data, passwords, salary_history]

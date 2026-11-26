@@ -1,0 +1,27 @@
+version: 1
+target_titles: [data engineer, data platform engineer, analytics engineer, business intelligence analyst, databricks data engineer, bi engineer]
+technology:
+  anchors: [databricks, pyspark, apache spark]
+  anchor_gate: false
+  core: [python, sql, dimensional data modeling, etl/elt, aws, terraform, power bi, tableau, data validation]
+  preferred: [delta lake, scala, looker, github actions, docker, ci/cd, git]
+  adjacent:
+    azure: [aws]
+    gcp: [aws]
+    snowflake: [databricks]
+    qlik: [power bi, tableau]
+work_arrangement: {remote_us: true, hybrid: true, onsite: true}
+residency: {country: US, home_state: MD, timezone: America/New_York}
+compensation: {minimum_base_annual: null, minimum_hourly_contract: null, currency: USD}
+employment_types: [full_time, part_time, w2_contract, c2c_contract, contract_1099, temporary]
+deal_breakers: []
+company_watch: []
+industry_preference: []
+notes:
+  - "Arrangement priority: remote first, then hybrid, then onsite."
+  - "Preferred area for hybrid and onsite roles: Baltimore, MD."
+budgets: {discovery_queries: 8, verification_fetches: 12, company_watch_checks: 4}
+thresholds: {strong: 70, review: 60}
+freshness: {max_posting_age_days: 30, verify_within_hours: 24}
+seen_index_ttl_days: {GATED: 14, BELOW_THRESHOLD: 14, DUPLICATE: 30, UNVERIFIED: 3, SCAM: 90, DISMISSED: 60}
+application_policy: {auto_submit: false, require_review: true}

@@ -1,0 +1,10 @@
+{
+  "next_job_number": 1,
+  "lock": {
+    "lock_id": "6417b645470f4c4ea4268391c30b5801",
+    "holder": "setup:save:search_profile",
+    "acquired_at": "2026-11-26T20:54:14.675299+00:00",
+    "expires_at": "2026-11-26T21:24:14.675299+00:00",
+    "took_over_from": null
+  }
+}

@@ -1,4 +1,10 @@
 {
   "next_job_number": 1,
-  "lock": null
+  "lock": {
+    "lock_id": "bca182e8db404479a1a635798f7b178b",
+    "holder": "setup:save:fact_bank",
+    "acquired_at": "2026-11-26T20:54:22.642407+00:00",
+    "expires_at": "2026-11-26T21:24:22.642407+00:00",
+    "took_over_from": null
+  }
 }

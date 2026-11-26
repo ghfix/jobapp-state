@@ -1,0 +1,298 @@
+# Edwin Evans - JobApp fact bank. Source: Edwin_Evans_CV_Data.pdf (resume), extracted 2026-11-26.
+# Every claim below is copied from the resume as written (origin: quoted).
+facts:
+  # ---------------- Summary
+  - fact_id: FB-001
+    category: summary
+    claim: Data and analytics engineer with 10+ years across data engineering, analytics engineering and business systems, currently modernizing production data pipelines at Comcast Advertising on Databricks and AWS.
+    skills: [Data Engineering, Analytics Engineering, Databricks, AWS]
+    source: Resume - Summary
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-002
+    category: summary
+    claim: Rebuilt a Scala pipeline as a modular PySpark application with incremental processing, idempotent partition reruns and Terraform-managed deployments, cutting runtime 64%.
+    skills: [Scala, PySpark, Incremental processing, Terraform]
+    source: Resume - Summary
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-003
+    category: summary
+    claim: Before that, eight years building dimensional models, SQL transformations and Power BI and Tableau dashboards, and five years keeping 200K+ shareholder records accurate through a registry migration.
+    skills: [Dimensional data modeling, SQL, Power BI, Tableau, Data migration]
+    source: Resume - Summary
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-004
+    category: summary
+    claim: Strong on data validation and root cause analysis, with a statistics degree and a Databricks data engineering certification.
+    skills: [Data validation, Root cause analysis, Statistics, Databricks]
+    source: Resume - Summary
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  # ---------------- Core competencies
+  - fact_id: FB-005
+    category: skills
+    claim: "Data Engineering: Python (PySpark) | SQL | Scala | Apache Spark | Databricks and Delta Lake | ETL and ELT design | Incremental processing and backfills | Partition-level idempotency | Dimensional data modeling"
+    skills: [Python, PySpark, SQL, Scala, Apache Spark, Databricks, Delta Lake, ETL, ELT, Incremental processing, Backfills, Partition-level idempotency, Dimensional data modeling]
+    source: Resume - Core Competencies
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-006
+    category: skills
+    claim: "Cloud & DevOps: AWS | Terraform | GitHub Actions | Docker | CI/CD across development, QA, staging and production | Git"
+    skills: [AWS, Terraform, GitHub Actions, Docker, CI/CD, Git]
+    source: Resume - Core Competencies
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-007
+    category: skills
+    claim: "Data Quality & Review: Data validation | Change detection | Root cause analysis | UAT | Reconciliation | Translating requirements into technical specifications"
+    skills: [Data validation, Change detection, Root cause analysis, UAT, Reconciliation, Requirements analysis]
+    source: Resume - Core Competencies
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-008
+    category: skills
+    claim: "BI & Reporting: Power BI | Tableau | Looker | KPI dashboards | Executive and operational reporting | Sales forecasting and budgeting"
+    skills: [Power BI, Tableau, Looker, KPI dashboards, Executive reporting, Sales forecasting, Budgeting]
+    source: Resume - Core Competencies
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-009
+    category: domain
+    claim: "Domain experience: Advertising and Media | Telecommunications Sales Operations | Retail | Capital Markets and Share Registry | Corporate Actions | Regulatory and Financial Reporting"
+    skills: [Advertising, Media, Telecommunications, Retail, Capital markets, Regulatory reporting, Financial reporting]
+    source: Resume - Domain Experience
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  # ---------------- Comcast: Data Engineering Project
+  - fact_id: FB-010
+    category: role
+    claim: COMCAST, Baltimore, MD, Jun 2024 - Present. Data Engineering Project, Comcast Advertising, Feb 2026 - Present.
+    skills: [Data Engineering]
+    source: Resume - Professional Experience, Comcast
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-011
+    category: responsibility
+    claim: Refactored a Scala Databricks notebook into a modular, production-grade PySpark application, improving maintainability, deployment readiness and scalability.
+    skills: [Scala, Databricks, PySpark]
+    source: Resume - Comcast, Data Engineering Project (Feb 2026 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-012
+    category: responsibility
+    claim: Architected a two-stage pipeline that generates partitioned Parquet datasets, applies enrichment logic and publishes analytics-ready Delta Gold tables.
+    skills: [Pipeline architecture, Parquet, Delta Lake, Medallion architecture]
+    source: Resume - Comcast, Data Engineering Project (Feb 2026 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-013
+    category: responsibility
+    claim: Built incremental processing, selective backfills, partition-level idempotency and baseline change detection so reruns are safe and publishing stays efficient.
+    skills: [Incremental processing, Backfills, Partition-level idempotency, Change detection]
+    source: Resume - Comcast, Data Engineering Project (Feb 2026 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-014
+    category: responsibility
+    claim: Automated infrastructure and deployments with Terraform and GitHub Actions, with configuration-driven isolation across development, QA, staging and production.
+    skills: [Terraform, GitHub Actions, CI/CD, Infrastructure as code]
+    source: Resume - Comcast, Data Engineering Project (Feb 2026 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-015
+    category: achievement
+    claim: Cut end-to-end pipeline runtime from about 7 hours to about 2.5 hours, an estimated 64% improvement.
+    skills: [Performance optimization, PySpark, Databricks]
+    source: Resume - Comcast, Data Engineering Project (Feb 2026 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  # ---------------- Comcast: Product Sales Support & Analysis
+  - fact_id: FB-016
+    category: role
+    claim: Product Sales Support & Analysis, Comcast, Jun 2024 - Present.
+    skills: [Sales analysis]
+    source: Resume - Professional Experience, Comcast
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-017
+    category: responsibility
+    claim: Prepare sales forecasts, budgets, projections and recurring reporting for SMB and core mid-market sales teams.
+    skills: [Sales forecasting, Budgeting, Reporting]
+    source: Resume - Comcast, Product Sales Support & Analysis (Jun 2024 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-018
+    category: responsibility
+    claim: Support process, systems, enablement and revenue assurance for SMB and mid-market management and acquisition sales teams; research and resolve customer escalations.
+    skills: [Revenue assurance, Sales enablement, Business systems, Escalation management]
+    source: Resume - Comcast, Product Sales Support & Analysis (Jun 2024 - Present)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  # ---------------- Trust Sports Emporium
+  - fact_id: FB-019
+    category: role
+    claim: TRUST SPORTS EMPORIUM, Accra, Ghana | Analytics Engineer, Dec 2015 - Sep 2023.
+    skills: [Analytics Engineering]
+    source: Resume - Professional Experience, Trust Sports Emporium
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-020
+    category: responsibility
+    claim: Translated requirements from cross-functional subject-matter experts into technical specifications for pipelines, data models and reporting layers.
+    skills: [Requirements analysis, Technical specifications, Data modeling]
+    source: Resume - Trust Sports Emporium, Analytics Engineer (Dec 2015 - Sep 2023)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-021
+    category: responsibility
+    claim: Designed and deployed dimensional data models, SQL transformation logic and Tableau and Power BI dashboards that let stakeholders self-serve performance metrics.
+    skills: [Dimensional data modeling, SQL, Tableau, Power BI, Self-service analytics]
+    source: Resume - Trust Sports Emporium, Analytics Engineer (Dec 2015 - Sep 2023)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-022
+    category: responsibility
+    claim: Built automated pipelines and system integrations, and automated booking confirmations, operational reporting and error checks, improving accuracy and timeliness.
+    skills: [Data pipelines, System integration, Automation, Operational reporting]
+    source: Resume - Trust Sports Emporium, Analytics Engineer (Dec 2015 - Sep 2023)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-023
+    category: responsibility
+    claim: Ran UAT and data validation cycles on new analytics products before production release.
+    skills: [UAT, Data validation]
+    source: Resume - Trust Sports Emporium, Analytics Engineer (Dec 2015 - Sep 2023)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  # ---------------- NTHC
+  - fact_id: FB-024
+    category: role
+    claim: NTHC, Accra, Ghana | Business Systems Analyst, Aug 2010 - Nov 2015.
+    skills: [Business systems analysis]
+    source: Resume - Professional Experience, NTHC
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-025
+    category: responsibility
+    claim: Built compliance-ready reports and executive dashboards over 200K+ shareholder records for regulatory filings and internal decisions.
+    skills: [Regulatory reporting, Executive dashboards]
+    source: Resume - NTHC, Business Systems Analyst (Aug 2010 - Nov 2015)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-026
+    category: achievement
+    claim: Supported migration of legacy share registry databases to upgraded platforms, improving data accuracy about 20% and reducing manual reconciliation.
+    skills: [Data migration, Data quality, Reconciliation]
+    source: Resume - NTHC, Business Systems Analyst (Aug 2010 - Nov 2015)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-027
+    category: achievement
+    claim: Coordinated data and communications workflows for corporate actions (bonus issues, rights issues, mergers), with 100% on-time communication to 200K+ shareholders.
+    skills: [Corporate actions, Workflow coordination]
+    source: Resume - NTHC, Business Systems Analyst (Aug 2010 - Nov 2015)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-028
+    category: achievement
+    claim: Redesigned dividend notices, AGM communications and proxy materials using stakeholder analysis, lifting shareholder participation 15%.
+    skills: [Stakeholder analysis]
+    source: Resume - NTHC, Business Systems Analyst (Aug 2010 - Nov 2015)
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  # ---------------- Education and certifications
+  - fact_id: FB-029
+    category: education
+    claim: MBA, Finance, Coventry University (2017).
+    skills: [Finance]
+    source: Resume - Education & Certifications
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-030
+    category: education
+    claim: BSc, Statistics & Psychology, University of Ghana (2010).
+    skills: [Statistics]
+    source: Resume - Education & Certifications
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-031
+    category: certification
+    claim: Databricks Certified Data Engineer Associate (2025).
+    skills: [Databricks]
+    source: Resume - Education & Certifications
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
+  - fact_id: FB-032
+    category: certification
+    claim: Scrum Master certification, Scrum Institute (2023).
+    skills: [Scrum, Agile]
+    source: Resume - Education & Certifications
+    origin: quoted
+    approved_for_resume: true
+    approved_for_screening: true
+    user_verified_at: null
